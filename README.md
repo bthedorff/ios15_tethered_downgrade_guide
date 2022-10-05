@@ -11,9 +11,7 @@ HUGE THANKS TO **galaxy#6181**. Without him, I wouldn't have known all this to w
 - irecovery
 - futurerestore
 - pyimg4 (pip3 install pyimg4) (**MAKE SURE YOU UPDATED PYTHON AND NOT USING THE BUNDLED ONE!**)
-- iBoot64patcher (https://github.com/Cryptiiiic/iBoot64Patcher)
 - Kernel64patcher (https://github.com/iSuns9/Kernel64Patcher)
-- img4tool (https://github.com/tihmstar/img4tool)
 - ldid (https://github.com/ProcursusTeam/ldid)
 - restored_external64_patcher (https://github.com/iSuns9/restored_external64patcher)
 - asr64_patcher (https://github.com/iSuns9/asr64_patcher)

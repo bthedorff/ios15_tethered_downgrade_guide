@@ -82,6 +82,7 @@ HUGE THANKS TO **galaxy#6181**. Without him, I wouldn't have known all this to w
 
 		cp -a restored_external_patched ramdisk/usr/local/bin/restored_external
 		cp -a patched_asr ramdisk/usr/sbin/asr
+		cp -a libimg4.patched ramdisk/usr/lib/libimg4.dylib
 
 
 14. Unmount the ramdisk: 

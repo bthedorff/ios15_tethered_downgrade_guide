@@ -74,7 +74,7 @@ HUGE THANKS TO **galaxy#6181**. Without him, I wouldn't have known all this to w
 
 	      chmod 777 restored_external_patched
 	      chmod 777 patched_asr
-	      chmod 777 libimg4_patched
+	      chmod 777 libimg4.patched
 
 
 14. Replace the original binaries with the patched ones: 

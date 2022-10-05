@@ -113,9 +113,10 @@ HUGE THANKS TO **galaxy#6181**. Without him, I wouldn't have known all this to w
 
 
 18. Repack the kernel:
+(If your device does not have KPP which is A10 devices and up do not include --extra kpp.bin)
 
 
-	    pyimg4 im4p create -i kernelcache.patched -o kernelcache.im4p --extra kpp.bin -f rkrn --lzss (If your device does not have KPP which is A10 devices and up do not include --extra kpp.bin)
+	    pyimg4 im4p create -i kernelcache.patched -o kernelcache.im4p --extra kpp.bin -f rkrn --lzss
 
 19. Restoring the device with futurerestore:
 

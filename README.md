@@ -23,6 +23,7 @@ HUGE THANKS TO **galaxy#6181**. Without him, I wouldn't have known all this to w
 
 1. Grab yourself your ipsw for iOS 15.1
 2. Extract it and grab kernelcache and restore ramdisk (tip: it's the smallest .dmg in the IPSW!)
+3. Put kernelcache and ramdisk.dmp in new folder
 4. Extract the restore ramdisk with: `pyimg4 im4p extract -i restore_ramdisk_name.dmg -o ramdisk.dmg`
 5. Mount the restore ramdisk: 
 
@@ -122,4 +123,4 @@ HUGE THANKS TO **galaxy#6181**. Without him, I wouldn't have known all this to w
 **(MAKE SURE YOU ARE IN PWNDFU WITH SIGCHECKS REMOVED!)**
 
 
-    futurerestore -t blob.shsh2 --use-pwndfu --skip-blob --rdsk ramdisk.im4p --rkrn kernelcache.im4p --custom-latest-beta --custom-latest-buildid 19H12 --latest-sep --latest-baseband ipsw.ipsw
+    futurerestore -t blob.shsh2 --use-pwndfu --skip-blob --rdsk ramdisk.im4p --rkrn kernelcache.im4p --custom-latest-beta --custom-latest-buildid 19H12 --latest-sep --latest-baseband original-ipsw.ipsw
